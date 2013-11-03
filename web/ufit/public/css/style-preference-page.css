@@ -1,0 +1,29 @@
+/* ===== Primary Styles ========================================================
+   Author: 
+   ========================================================================== */
+
+
+.me {
+
+}
+
+.workout {
+    border-top: 1px solid;
+}
+
+.goal {
+    border-top: 1px solid;
+}
+
+.body-image {
+    //margin-left: 450;
+    //margin-top: -70px;
+}
+
+input[type="radio"] {
+  padding-right: 10px;
+}
+
+.table-equip {
+    cellpadding: 10px;
+}
