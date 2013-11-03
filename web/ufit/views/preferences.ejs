@@ -25,13 +25,12 @@
                 <table cellpadding="10px">
                 <tr>
                     <td> Age: </td>
-                    <td> <input type="text" name="age"> </td>
+                    <td> <input type="text" name="age" style="width:50px;" value="28"> </td>
                 </tr>
                 <tr>
-                    <td> Weight: </td>
-                    <td> <input type="text" name="weight"> </td>
-                    <td>
-                        <input type="radio" name="weight" value="male"> Pounds
+                    <td valign="top"> Weight: </td>
+                    <td> <input type="text" name="weight" style="width:50px;" value="170"> <br>
+                        <input type="radio" name="weight" value="male" checked="checked"> Pounds
                         <input type="radio" name="weight" value="male"> Kilograms
                     </td>
                     
@@ -39,11 +38,15 @@
                 <tr>
                     <td> Gender: </td>
                     <td>
-                        <input type="radio" name="sex" value="male"> Male
+                        <input type="radio" name="sex" value="male" checked="checked"> Male
                         <input type="radio" name="sex" value="male"> Female
                     </td>
                 </tr>
                 </table>
+                <div class="photo">
+                    <img src="img/photo.jpg" width="220px">
+                </div>
+                <br>
             </div>
             
             <div class="workout">
@@ -53,11 +56,11 @@
                 <tr>
                     <td> How many times a week: </td>
                     <td>
-                        <select>
+                        <select style="width:60px;">
                             <option value="volvo"></option>
                             <option value="saab">1</option>
                             <option value="mercedes">2</option>
-                            <option value="saab">3</option>
+                            <option value="saab" selected>3</option>
                             <option value="mercedes">4</option>
                             <option value="mercedes">5</option>
                             <option value="saab">6</option>
@@ -67,13 +70,13 @@
                 </tr>
                 <tr>
                     <td> Duration (minutes): </td>
-                    <td> <input type="text" name="age"> </td>
+                    <td> <input type="text" name="age" style="width:50px;" value="40"> </td>
                 </tr>
                 <tr>
                     <td> Location: </td>
                     <td>
-                        <input type="radio" name="loc" value="male"> Home
-                        <input type="radio" name="loc" value="male"> Gym
+                        <input type="radio" name="loc" value="male" > Home
+                        <input type="radio" name="loc" value="male" checked="checked"> Gym
                     </td>
                 </tr>
                 <tr>
@@ -81,16 +84,16 @@
                     <td>
                         <table cellpadding="10px">
                         <tr>
-                        <td><input type="checkbox" name="equi" value="Bike"> Treadmill</td>
+                        <td><input type="checkbox" name="equi" value="Bike" checked="checked"> Treadmill</td>
                         <td><input type="checkbox" name="equi" value="Bike"> Elliptical </td>
                         <td><input type="checkbox" name="equi" value="Bike"> Exercise ball</td>
                         <td><input type="checkbox" name="equi" value="Bike"> Medicine ball </td>
                         </tr>
                         <tr>
-                            <td><input type="checkbox" name="equi" value="Bike"> Dumbbells</td>
+                            <td><input type="checkbox" name="equi" value="Bike" checked="checked"> Dumbbells</td>
                             <td><input type="checkbox" name="equi" value="Bike"> Barbells </td>
                             <td><input type="checkbox" name="equi" value="Bike"> Jump Rope</td>
-                            <td><input type="checkbox" name="equi" value="Bike"> Kettlebells </td>
+                            <td><input type="checkbox" name="equi" value="Bike" checked="checked"> Kettlebells </td>
                         </tr>
                         <tr>
                             <td><input type="checkbox" name="equi" value="Bike"> Jump rope</td>
@@ -121,7 +124,7 @@
                             <option value="saab">Cardio</option>
                             <option value="mercedes">Flexibility</option>
                             <option value="mercedes">Strength</option>
-                            <option value="mercedes">Weight Loss</option>
+                            <option value="mercedes" selected>Weight Loss</option>
                         </select>
                     </br>
                 </tr>
@@ -130,7 +133,7 @@
                     <td>
                         <select>
                             <option value="volvo"></option>
-                            <option value="saab">Cardio</option>
+                            <option value="saab" selected>Cardio</option>
                             <option value="mercedes">Flexibility</option>
                             <option value="mercedes">Strength</option>
                             <option value="mercedes">Weight Loss</option>
