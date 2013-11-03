@@ -15,9 +15,9 @@
     border-top: 1px solid;
 }
 
-.body-image {
-    //margin-left: 450;
-    //margin-top: -70px;
+.photo {
+    margin-left: 300px;
+    margin-top: -160px;
 }
 
 input[type="radio"] {
