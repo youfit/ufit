@@ -10,7 +10,8 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="#">uFit</a>
+          <!-- <a class="brand" href="#">uFit</a> -->
+          <image class="brand" width="72px" height="24px" src="img/ufit_logo.png" />
           <nav class="nav-collapse pull-right">
             <!--<ul class="nav">
               <li class="dropdown">
@@ -59,8 +60,10 @@
 							<input name="muscle_groups" type="checkbox" /> Legs <br><br>
 
 							<label> <b>Focus</b> </label>
-							<input name="focus" type="checkbox" checked="checked"/> Strength <br>
-							<input name="focus" type="checkbox" /> Cardio <br><br>
+							<input name="focus" type="checkbox" checked="checked"/> Cardio <br>
+							<input name="focus" type="checkbox" /> Flexibility <br>
+							<input name="focus" type="checkbox" /> Strength <br>
+							<input name="focus" type="checkbox" /> Weight Loss <br><br>
 
 							<label> <b>Days per Week</b> </label>
 							1 <input type="range" name="points" min="1" max="10" value=3> 7 <br><br>
@@ -75,14 +78,25 @@
 				<div class="span9" id="results-main" style="float:right">
 					<h4><small>Premium Results</small></h4>
 					<div class="results-on">
-						<section class="result-part" style="background-color:#FFFF99; padding:10px">
-							<iframe style="float:left" width="300" height="169" src="//www.youtube.com/embed/ovDsE7NPwkI" frameborder="0" allowfullscreen></iframe>
+						<section class="result-part" style="background-color:#fff7ed;padding:10px;border-bottom:solid 1px gray">
+							<iframe style="float:left;padding:0px 30px 0px 0px" width="300" height="169" src="//www.youtube.com/embed/ovDsE7NPwkI" frameborder="0" allowfullscreen></iframe>
 							<h3><a href="#" class="view-detail"> David Strong </a>
 								<a class="manf-name" href="#"> Contact Me </a>
 							</h3>
 							<p class="short-desc pull-left" stye="float:left"> 12 years experience <br>
 							Palt Alto, CA <br>
 							Strenth and Nurtionalist specialist </p>
+							<div class="price-avail pull-right">
+								<!-- star rating inputs -->
+								<input name="rating0" type="radio" class="star">
+								<input name="rating0" type="radio" class="star">
+								<input name="rating0" type="radio" class="star">
+								<input name="rating0" type="radio" class="star">
+								<input name="rating0" type="radio" class="star" checked="checked">
+								<!-- price and availability -->
+								<p class="price">Price: $35.00</p>
+								<a href="#" class="classname-select-button">Select</a>
+							</div>
 						</section>
 						<br>
 					<div>
@@ -92,34 +106,49 @@
 					<div id="results" class="results-on">
 						
 						<section class="result-part">
-							<iframe width="300" height="169" style="float:left" margin="30px" src="//www.youtube.com/embed/MStBzKE2Ft4" frameborder="0" allowfullscreen></iframe>
+							<iframe width="300" height="169" style="float:left;padding:0px 30px 0px 0px" margin="30px" src="//www.youtube.com/embed/MStBzKE2Ft4" frameborder="0" allowfullscreen></iframe>
 							<h3><a href="#" class="view-detail"> Livestrong </a>
 								<a class="manf-name" href="#"> Join Us </a>
 							</h3>
-							<p class="short-desc pull-left"> Featuring instructors Trapp, Calabrese <br>
-							7 Days cycle <br>
-							Intermediate Level </p>
+							<p class="short-desc pull-left"> Instructors: <b>Trapp, Calabrese</b>
+<br>
+Program Duration: <b>4 weeks</b>
+<br>
+Excersies per week: <b>3</b>
+<br>
+Excerise Length: <b>30-45 min. </b>
+<br>
+Level: <b>Intermediate</b>
+<br> </p>
 							<div class="price-avail pull-right">
 								<!-- star rating inputs -->
 								<input name="rating1" type="radio" class="star">
 								<input name="rating1"type="radio" class="star">
+								<input name="rating1"type="radio" class="star">
 								<input name="rating1"type="radio" class="star" checked="checked">
 								<input name="rating1"type="radio" class="star">
-								<input name="rating1"type="radio" class="star">
 								<!-- price and availability -->
-								<p class="price">Price: $35.00</p>
-								<image src="img/pick.png" />
+								<p class="price">Price: $10.00</p>
+								<a href="#" class="classname-select-button">Select</a>
 							</div>
+								
 						</section>
 						
 						<section class="result-part">
-							<iframe width="300" height="169" style="float:left" margin="30px" src="//www.youtube.com/embed/tzD9BkXGJ1M" frameborder="0" allowfullscreen></iframe>
+							<iframe width="300" height="169" style="float:left;padding:0px 30px 0px 0px" margin="30px" src="//www.youtube.com/embed/tzD9BkXGJ1M" frameborder="0" allowfullscreen></iframe>
 							<h3><a href="#" class="view-detail"> Crossfit </a>
 								<a class="manf-name" href="#"> Join Us </a>
 							</h3>
-							<p class="short-desc pull-left"> Featuring instructors Jorgensen, Jason, Matt <br>
-							7 Days cycle <br>
-							Intermediate Level </p>
+							<p class="short-desc pull-left"> Instructors: <b>Jorgensen, Jason, Matt</b>
+<br>
+Program Duration: <b>6 weeks</b>
+<br>
+Excersies per week: <b>4</b>
+<br>
+Excerise Length: <b>45-60 min. </b>
+<br>
+Level: <b>Intermediate</b>
+<br> </p>
 							<div class="price-avail pull-right">
 								<!-- star rating inputs -->
 								<input name="rating2" type="radio" class="star">
@@ -129,7 +158,7 @@
 								<input name="rating2"type="radio" class="star">
 								<!-- price and availability -->
 								<p class="price">Price: Free</p>
-								<image src="img/pick.png" />
+								<a href="#" class="classname-select-button">Select</a>
 							</div>
 						</section>
 		          	<br>

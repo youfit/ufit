@@ -365,7 +365,7 @@ h6 {
   margin: 0;
   font-family: 'Telex', sans-serif;
   font-weight: bold;
-  color: #317eac;
+  color: #009999;
   text-rendering: optimizelegibility;
 }
 h1 small,
@@ -4181,12 +4181,12 @@ a.badge:hover {
 }
 .navbar .navbar-inner {
   background-color: #3f9fd9;
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#369bd7), color-stop(90%, #369bd7), to(#61b0df));
-  background-image: -webkit-linear-gradient(#369bd7, #369bd7 90%, #61b0df);
-  background-image: -moz-linear-gradient(top, #369bd7, #369bd7 90%, #61b0df);
-  background-image: -ms-linear-gradient(#369bd7, #369bd7 90%, #61b0df);
-  background-image: -o-linear-gradient(#369bd7, #369bd7 90%, #61b0df);
-  background-image: linear-gradient(#369bd7, #369bd7 90%, #61b0df);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#F0F0F0), color-stop(90%, #F0F0F0), to(#61b0df));
+  background-image: -webkit-linear-gradient(#F0F0F0, #F0F0F0 90%, #F0F0F0);
+  background-image: -moz-linear-gradient(top, #F0F0F0, #F0F0F0 90%, #F0F0F0);
+  background-image: -ms-linear-gradient(#F0F0F0, #F0F0F0 90%, #F0F0F0);
+  background-image: -o-linear-gradient(#F0F0F0, #F0F0F0 90%, #F0F0F0);
+  background-image: linear-gradient(#F0F0F0, #F0F0F0 90%, #F0F0F0);
   background-repeat: no-repeat;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#369bd7', endColorstr='#61b0df', GradientType=0);
 }
@@ -4233,13 +4233,13 @@ div.subnav {
   background-position: 0 0;
 }
 .btn-primary {
-  background-color: #43a1da;
-  background-image: -moz-linear-gradient(top, #4ba6db, #369bd7);
-  background-image: -ms-linear-gradient(top, #4ba6db, #369bd7);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#4ba6db), to(#369bd7));
-  background-image: -webkit-linear-gradient(top, #4ba6db, #369bd7);
-  background-image: -o-linear-gradient(top, #4ba6db, #369bd7);
-  background-image: linear-gradient(top, #4ba6db, #369bd7);
+  background-color: #5CCCCC;
+  background-image: -moz-linear-gradient(top, #5CCCCC, #5CCCCC);
+  background-image: -ms-linear-gradient(top, #5CCCCC, #5CCCCC);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5CCCCC), to(#5CCCCC));
+  background-image: -webkit-linear-gradient(top, ##5CCCCC, ##5CCCCC );
+  background-image: -o-linear-gradient(top, ##5CCCCC, ##5CCCCC);
+  background-image: linear-gradient(top, ##5CCCCC, ##5CCCCC);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4ba6db', endColorstr='#369bd7', GradientType=0);
   border-color: #369bd7 #369bd7 #2071a1;
@@ -4443,8 +4443,8 @@ i[class^="icon-"] {
 }
 #index #search-form {background-color:#DEDEDE; border-bottom:1px solid #F26101; margin-bottom:0}
 #index #search-input {display: inline}
-#index #content {background: url('../img/lil_fiber.png') repeat left top; border:0}
-#index #container {top:25px}
+/*#index #content {background: url('../img/lil_fiber.png') repeat left top; border:0}
+*/#index #container {top:25px}
 #index #results-nav {border:0; position:absolute; top:-34px}
 #index #results-nav > li > a {border-radius:0}
 #index #results-nav > li.active a {
@@ -4476,8 +4476,8 @@ i[class^="icon-"] {
 .icon-web {height:auto; width:20px}
 .logo-sugg {height:auto;width:20px;}
 
-#content {background-color:#E8E6ED; border-top:3px solid #CCC;}
-#container {
+/*#content {background-color:#E8E6ED; border-top:3px solid #CCC;}
+*/#container {
 	background-color:#FFF; 
 	padding:15px; 
 	position:relative; 
